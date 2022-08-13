@@ -1,0 +1,8 @@
+<html>
+<head><title>NoteTab</title></head>
+<body contenteditable autofocus
+ style="font-size: large; font-family: monospace;"
+ onload="document.body.innerHTML = localStorage.getItem('NoteTab')"
+ onkeyup="localStorage.setItem('NoteTab', document.body.innerHTML)">
+</body>
+</html>
