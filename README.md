@@ -5,3 +5,5 @@ NoteTab is a minimalist notepad in a browser tab.
 To install, save the HTML file anywhere and open it in the browser.
 
 The notepad contents are saved in the browser's localStorage.
+
+WARNING: Notepad contents will be deleted if you clear your browser data.
